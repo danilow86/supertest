@@ -1,0 +1,23 @@
+{
+  "name": "mytest",
+  "version": "1.0.0",
+  "description": "this is a test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilow86/supertest.git"
+  },
+  "author": "Danilo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilow86/supertest/issues"
+  },
+  "homepage": "https://github.com/danilow86/supertest#readme",
+  "dependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}
