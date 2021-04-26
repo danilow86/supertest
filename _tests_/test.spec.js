@@ -26,7 +26,6 @@ describe('Create /post', () => {
     userId: 2
     })
     .expect('Content-Type', /json/)
-    // .expect({message: "Hello, World!"}, done);
     .expect({ title: 'test', body: 'Earth is not flat', userId: 2, id: 101 }, done);
     });
     });
